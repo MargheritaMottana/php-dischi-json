@@ -46,7 +46,5 @@
         }
     ]';
 
-    header('Content-Type:application/jason');
-    // echo $database;
-
-?>
+    header('Content-Type: application/json');
+    echo $database;

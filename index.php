@@ -12,16 +12,17 @@
 </head>
 
 <body>
-    <main id="app" class="container py-5">
 
+    <header class="container pt-5">
         <h1>
             PHP Dischi JSON
         </h1>
+    </header>
 
+    <main id="app" class="container pb-5">
         <p>
             {{message}}
         </p>
-
     </main>
 
     <!-- bs -->
@@ -33,7 +34,8 @@
     <!-- axios -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!-- js -->
-     <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>
